@@ -1,0 +1,110 @@
+@use "../upstream" as *;
+
+.card {
+  background-color: map-get($color, "white");
+  border-radius: 10px;
+  @extend .shadow-md;
+  display: flex;
+  flex-direction: column;
+  height: 315px; 
+  margin: 10px;
+  overflow: hidden;
+  width: 195px;
+
+    @media screen and (max-width: 879px) {
+    height: 275px;
+    width: 145px;
+    }
+    
+
+
+  &-img-container {
+    max-height: 135px;
+    position: relative;
+    overflow: hidden;
+     @media screen and (max-width: 879px) {
+        max-height: 125px;
+      }
+
+    &-backgroundImg {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    &-placeholderImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 62%;
+      margin: auto;
+    }
+  }
+
+  &-bridgeImg {
+    max-height: 135px;
+    object-fit: cover;
+      @media screen and (max-width: 879px) {
+        max-height: 125px;
+      }
+  }
+
+  &-info{
+    display: flex;
+    flex-direction: column;
+    @extend .p-3;
+    &-row {
+      height: 0%;
+      &-heading {
+       font-size: 20px;
+       @extend .mb-3;
+       text-transform: capitalize;
+    }
+       &-subheading {
+       font-size: 16px;
+       text-transform: capitalize;
+      }
+          @media screen and (max-width: 879px) {
+            &-heading {
+            font-size: 14px;
+            margin-bottom: 0;
+            }
+            &-subheading {
+            font-size: 12px;
+            }
+      }
+    }
+
+
+
+
+    &-footer {
+    position: relative;
+    top: 124px; 
+      
+    @media screen and (max-width: 879px) {
+      top: 90px;
+      }
+
+        &-line {
+        border-width: 1px;
+        border-style: inset;
+        border-width: 1px;
+        }
+
+        &-price {
+          color: map-get($color, "success");
+          // @extend %currency;
+          float: right;
+          font-size: 18px;
+          font-weight: 700;
+          @extend .pt-1;
+
+          @media screen and (max-width: 879px) {
+          font-size: 16px;
+          }
+        }
+    }
+  }
+}

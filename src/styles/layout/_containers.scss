@@ -1,0 +1,33 @@
+@use "../upstream" as *;
+
+body {
+  background-color: map-get($color, "light-blue");
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 68px;
+}
+
+.grid {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(5, 1fr);
+
+  @media screen and (max-width: 1079px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (max-width: 879px) {
+    grid-template-columns: repeat(3, 1fr);
+  } 
+}

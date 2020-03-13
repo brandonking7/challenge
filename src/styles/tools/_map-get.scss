@@ -1,0 +1,2 @@
+@use "sass:map";
+$map-get: map.get(('key': 'value'), 'key');

@@ -1,0 +1,9 @@
+@use '../variables' as *;
+
+.shadow-md {
+  box-shadow: 0 0 8px rgba(map-get($color, "gray"), 0.3);
+}
+
+.shadow-sm {
+  box-shadow: 0 0 2px rgba(map-get($color, "black"), 0.6);
+}

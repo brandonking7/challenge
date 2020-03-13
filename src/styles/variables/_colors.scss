@@ -1,0 +1,19 @@
+$color: (
+    // Colors
+    
+    "white"     : #FFFFFF,
+    "gray"      : #9A9FAC,
+    "muted"     : #72727F,
+    "black"     : #000000,
+
+    "success"   : #7ED321,
+    "light-blue": #A4C5DF,
+    "light-gray": #D7DCE1,
+    "dark-gray" : #3A3C44,
+);
+
+:export {
+    @each $name, $value in $color {
+        #{$name}: #{$value},
+    }
+}
