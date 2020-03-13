@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/challenge/static/css/main.68e206df.chunk.css",
+    "main.js": "/challenge/static/js/main.cb60c762.chunk.js",
+    "main.js.map": "/challenge/static/js/main.cb60c762.chunk.js.map",
+    "runtime-main.js": "/challenge/static/js/runtime-main.ee0f75ac.js",
+    "runtime-main.js.map": "/challenge/static/js/runtime-main.ee0f75ac.js.map",
+    "static/js/2.1e8f4eaa.chunk.js": "/challenge/static/js/2.1e8f4eaa.chunk.js",
+    "static/js/2.1e8f4eaa.chunk.js.map": "/challenge/static/js/2.1e8f4eaa.chunk.js.map",
+    "index.html": "/challenge/index.html",
+    "precache-manifest.41cdc9dd5cd74a8e9a726851c453e07e.js": "/challenge/precache-manifest.41cdc9dd5cd74a8e9a726851c453e07e.js",
+    "service-worker.js": "/challenge/service-worker.js",
+    "static/css/main.68e206df.chunk.css.map": "/challenge/static/css/main.68e206df.chunk.css.map",
+    "static/js/2.1e8f4eaa.chunk.js.LICENSE.txt": "/challenge/static/js/2.1e8f4eaa.chunk.js.LICENSE.txt",
+    "static/media/darktiles_bg_gike55.jpg": "/challenge/static/media/darktiles_bg_gike55.b29ffb46.jpg",
+    "static/media/wide_ggbridge_bg_teneax.jpg": "/challenge/static/media/wide_ggbridge_bg_teneax.3ab33e85.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee0f75ac.js",
+    "static/js/2.1e8f4eaa.chunk.js",
+    "static/css/main.68e206df.chunk.css",
+    "static/js/main.cb60c762.chunk.js"
+  ]
+}
