@@ -1,0 +1,15 @@
+{
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-fansub-dash-develop-173559-authRole",
+            "UnauthRoleArn": "arn:aws:iam::005729835321:role/amplify-fansub-dash-develop-173559-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::005729835321:role/amplify-fansub-dash-develop-173559-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-fansub-dash-develop-173559-deployment",
+            "UnauthRoleName": "amplify-fansub-dash-develop-173559-unauthRole",
+            "StackName": "amplify-fansub-dash-develop-173559",
+            "StackId": "arn:aws:cloudformation:us-east-1:005729835321:stack/amplify-fansub-dash-develop-173559/c3efb7f0-8285-11ea-9dfb-0ab389d40b93",
+            "AmplifyAppId": "d2nopcyaee7pwr"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"function": {
+		"chatFunction": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda"
+		}
+	}
+}
